@@ -42,7 +42,8 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* background-color: grey; */
+  background-color: orange;
+  outline: 3px solid navy;
   }
 
 
@@ -72,6 +73,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
+.section-container {
+  padding: 94px;
+ }
 
 /*++++++++++ Header ++++++++++  */
 
@@ -155,6 +160,10 @@ img {
 
 /*++++++++++ Hero ++++++++++  */
 
+.hero {
+  background-color: green;
+}
+
 .hero-title {
   margin-bottom: 30px;
 
@@ -188,7 +197,25 @@ img {
 
 /*++++++++++ Advantages ++++++++++  */
 
+.advantages {
+  background-color: red;
+}
+
+
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+.advantages-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .advantages-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -204,6 +231,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+
 
 /*++++++++++ Our team ++++++++++  */
 

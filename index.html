@@ -132,55 +132,66 @@
         
       </section>
       <!-- Наша команда -->
-      <section class="team">
+      <section class="team section-container">
+        <div class="container">
         <h2 class="team-title section-title">Наша команда</h2>
-        <ul>
-          <li>
-            <img
+        <ul class="team-list">
+          <li class="team-list-item">
+              <img
               src="./images/our-team/our-team-1.jpg"
               alt="Фотография сотрудника"
               width="270"
               height="260"
             />
-            <h3 class="team-member">Игорь Демьяненко</h3>
+             <div class="team-card-name">
+              <h3 class="team-member">Игорь Демьяненко</h3>
             <p lang="en" class="team-text">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/our-team/our-team-2.jpg"
               alt="Фотография сотрудника"
               width="270"
               height="260"
             />
-            <h3 class="team-member">Ольга Репина</h3>
+            <div class="team-card-name">
+               <h3 class="team-member">Ольга Репина</h3>
             <p lang="en" class="team-text">Frontend Developer</p>
-          </li>
-          <li>
+            </div>         
+          </li >
+          <li class="team-list-item">
             <img
               src="./images/our-team/our-team-3.jpg"
               alt="Фотография сотрудника"
               width="270"
               height="260"
             />
-            <h3 class="team-member">Николай Тарасов</h3>
+            <div class="team-card-name">
+              <h3 class="team-member">Николай Тарасов</h3>
             <p lang="en" class="team-text">Marketing</p>
+            </div>                  
           </li>
-          <li>
+          <li class="team-list-item">
             <img
               src="./images/our-team/our-team-4.jpg"
               alt="Фотография сотрудника"
               width="270"
               height="260"
             />
-            <h3 class="team-member">Михаил Ермаков</h3>
+            <div class="team-card-name">
+              <h3 class="team-member">Михаил Ермаков</h3>
             <p lang="en" class="team-text">UI Designer</p>
+            </div>            
           </li>
         </ul>
+        </div>     
       </section>
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <a href="index.html" lang="en" class="logo"> <span>Web</span>Studio</a>
+      <div class="container">
+        <a href="index.html" lang="en" class="logo"> <span>Web</span>Studio</a>
       <address>
         <ul class="footer-list">
           <li>
@@ -190,18 +201,20 @@
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
+          <li class="footer-contact-item">
             <a href="mailto:info@devstudio.com" class="footer-contact"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="footer-contact-item">
             <a href="tel:+380961111111" class="footer-contact"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </address>
+      </div>
+      
     </footer>
   </body>
 </html>

@@ -66,6 +66,8 @@ img {
 }
 
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -75,7 +77,8 @@ img {
 }
 
 .section-container {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
  }
 
 /*++++++++++ Header ++++++++++  */
@@ -201,8 +204,6 @@ img {
   background-color: red;
 }
 
-
-
 .advantages-list {
   display: flex;
   align-items: center;
@@ -232,8 +233,23 @@ img {
   color: var(--main-color);
 }
 
+/*++++++++++ Works ++++++++++*/
 
-/*++++++++++ Our team ++++++++++  */
+.woks-title-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: ;
+}
+
+
+
+/*++++++++++ Our team ++++++++++*/
+
+.works {
+  background-color: teal;
+}
+
 
 .team-member {
   font-weight: 500;

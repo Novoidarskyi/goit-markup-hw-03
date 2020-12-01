@@ -47,8 +47,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: pink;
-  outline: 3px solid navy;
 }
 
 .logo > span {
@@ -153,11 +151,14 @@ img {
 
 /*++++++++++ Portfolio ++++++++++*/
 
+.section-container .container {
+  margin-bottom: 50px;
+}
+
 .list-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .list-button-item:not(:last-child) {

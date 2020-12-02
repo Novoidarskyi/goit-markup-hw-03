@@ -242,8 +242,11 @@ img {
 
 /*++++++++++ Footer ++++++++++*/
 
-.footer .container {
+.footer {
   background-color: #2f303a;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
